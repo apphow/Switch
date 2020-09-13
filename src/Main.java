@@ -5,5 +5,7 @@ public class Main {
         Switch.Switch();
 
         SwitchChar.SwitchChar();
+
+        SwitchMonth.switchMonth();
     }
 }

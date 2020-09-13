@@ -5,7 +5,7 @@ public class Switch {
 
     public static void Switch() {
         Scanner scan = new Scanner(System.in);
-        System.out.println("Please enter the  1, 2, 3, 4, 5, 6, or 7");
+        System.out.println("\nPlease enter 1, 2, 3, 4, 5, 6, or 7");
         int switchValue = scan.nextInt();
 
         switch (switchValue) {
@@ -26,7 +26,7 @@ public class Switch {
                 System.out.println("More precisely, it was a " + switchValue);
                 break;
             default:
-                System.out.println("Invalid entry");
+                System.out.println("\nInvalid entry");
                 Switch();
         }
     }

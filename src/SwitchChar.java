@@ -24,8 +24,7 @@ public class SwitchChar {
                 break;
             default:
                 System.out.println("Oops, that's an invalid input!");
-
+                SwitchChar();
         }
-        SwitchChar();
     }
 }
